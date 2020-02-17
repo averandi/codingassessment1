@@ -1,0 +1,63 @@
+
+body{
+
+	background-image: url('../images/background.jpeg');
+	background-color: #9B870C;
+}
+
+h1{
+	text-transform: lowercase;
+	text-align: center;
+}
+
+img{
+	display: block;
+	width: 125px; 
+	height: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+   
+}
+
+
+
+#mystuff {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  justify-items: center;
+  flex-flow: row wrap;
+}
+
+/* #mystuff{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center; */
+}
+
+
+
+/* LARGE SCREEN */
+@media only screen and (min-width: 1024px){
+
+/*grid*/
+
+#mystuff {
+
+  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px 350px 350px 350px;
+}
+}
+
+div{
+   padding: 25px; 
+   margin:5px; 
+   text-align: center;
+   /* YOUR CODE HERE */
+}
+
+}
